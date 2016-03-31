@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="51124cc1-0a8b-405b-8443-463b6d37d6c8" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Laboratorio2SP.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Laboratorio2SP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0afdd33c486b273d" Namespace="Laboratorio2SP.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\Laboratorio2SP\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Laboratorio2SP_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
